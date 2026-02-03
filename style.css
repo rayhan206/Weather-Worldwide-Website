@@ -1,0 +1,56 @@
+
+body{
+    background-color: maroon;
+
+}
+.container{
+    width:100%;
+    height: 80vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:0px;
+
+
+}
+.weather {
+    display:flex;
+    flex-direction:column; /* Stacks 20 and Delhi vertically */
+    gap: 0px;               /* Force zero space between the divs */
+}
+p {
+    margin: 2px 0; /* Shrinks the gap between the text lines */
+}
+.temp{
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    color:aliceblue;
+}
+.time{
+
+    color:aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.condition{
+    color:aliceblue;
+    font-size:20px;
+}
+nav{
+
+    width:100%;
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.search{
+    
+    width: 400px;           /* This makes it way longer */
+    padding: 10px 15px;     /* Makes the box taller and cleaner */
+    border-radius: 20px;    /* Rounds the edges for a modern look */
+    border: 1px solid #ccc; /* Clean thin border instead of 50px */
+    outline: none;
+
+}
